@@ -1,0 +1,20 @@
+﻿  bigint.cpp
+c:\users\simon\source\repos\online_biglnt\online_biglnt\bigint.cpp(26): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+c:\users\simon\source\repos\online_biglnt\online_biglnt\bigint.cpp(50): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+c:\users\simon\source\repos\online_biglnt\online_biglnt\seqlist.h(58): warning C4101: “e”: 未引用的局部变量
+  c:\users\simon\source\repos\online_biglnt\online_biglnt\seqlist.h(52): note: 编译 类 模板 成员函数 "bool SeqList<u_char>::_Inc(void)" 时
+  c:\users\simon\source\repos\online_biglnt\online_biglnt\seqlist.h(102): note: 参见对正在编译的函数 模板 实例化“bool SeqList<u_char>::_Inc(void)”的引用
+  c:\users\simon\source\repos\online_biglnt\online_biglnt\seqlist.h(101): note: 编译 类 模板 成员函数 "void SeqList<u_char>::push_back(const Type &)" 时
+          with
+          [
+              Type=u_char
+          ]
+  c:\users\simon\source\repos\online_biglnt\online_biglnt\bigint.cpp(33): note: 参见对正在编译的函数 模板 实例化“void SeqList<u_char>::push_back(const Type &)”的引用
+          with
+          [
+              Type=u_char
+          ]
+  c:\users\simon\source\repos\online_biglnt\online_biglnt\bigint.h(65): note: 参见对正在编译的 类 模板 实例化 "SeqList<u_char>" 的引用
+  OnLineBigInt.cpp
+  正在生成代码...
+  OnLine_Biglnt.vcxproj -> C:\Users\simon\source\repos\OnLine_Biglnt\x64\Debug\OnLine_Biglnt.exe
